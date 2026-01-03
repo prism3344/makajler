@@ -1,0 +1,87 @@
+
+<html>
+<head>
+    <style>
+        h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        p, a {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        a { font-size: 20px; text-decoration: none; color: #007bff; }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; 
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding-top: 50px; 
+            background-color: #222;
+            background-image: url(tlo.png);
+            background-size: cover;
+            text-align: center;
+            color: white;
+        }
+
+        .content-wrapper {
+            margin-bottom: 40px;
+        }
+
+        .eyes-container {
+            display: flex;
+            gap: 30px; 
+        }
+        b {color: rgb(255, 255, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+        .eye {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 50%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+            animation: blink 5s infinite;
+        }
+
+        .pupil {
+            width: 40px;
+            height: 40px;
+            background-color: #333;
+            border-radius: 50%;
+            transition: 0.1s linear; 
+        }
+        h2 {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+   
+        @keyframes blink {
+            0%, 94%, 100% { transform: scaleY(1); }
+            97% { transform: scaleY(0.05); }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <h1>MAKAJLER</h1>
+        <p>pełny opis</p>
+    </div>  
+    <a href="https://prism3344.github.io/d11/">STRONA GŁÓWNA</a>
+    <b>Makajler(Igor Grabowski, 45 lat) to osoba z licznymi <a href="https://prism3344.github.io/d4/">tytułami naukowymi</a>.</b>
+    <br>
+    <b>Mieszka on w drobinie.</b>
+    <br>
+    <b>Ważną częścią jego życia było opiekowanie się końmi gdzie poznał swoją żonę <a href="#">Agnieszke</a>.</b>
+    <br>
+    <b>Makajler był świadkiem <a href="#">UFO drobińskiego</a><br> oraz wielu aktywności rządowych np. podkładanie mu muzyczek do domu i ograniczanie jego zdolności przez Microsoft.</b>
+    <br>
+    <b>Osoba ta twierdzi, że ma niezwykłą umiejętność władania nad AI(czyt. AI, nie ej aj).</b>
+    <br>
+    <h2>TIME LINE</h2>
+    <img src="time.png" >
+</body>
+</html>
